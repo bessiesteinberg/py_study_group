@@ -1,0 +1,31 @@
+itertools:
+  ☐ itertools makes iterables a lot easier
+    ☐ concatination: it_chain.py
+    ☐ grouping already ordered list: it_izip.py
+    ☐ counting: it_count.py
+    ☐ counting + grouping: it_count_izip.py
+    ☐ more specific counting: it_islice.py
+  ☐ infinite iterators
+    ☐ count: it_count.py
+    ☐ it_cycle.py
+    ☐ it_repeat.py
+    ☐ but why would i want an infinite iterator?
+      ☐ many iterators terminate on the shortest input
+      ☐ it_compress.py
+  ☐ other iterators of note:
+    ☐ it_ifilter.py
+    ☐ it_imap.py
+    ☐ it_tee.py
+  ☐ combinatorics:
+    ☐ product
+    ☐ permutations
+    ☐ combinations
+    ☐ combinations_with_replacement
+
+
+
+
+  ref links:
+  - https://docs.python.org/2/library/itertools.html
+  - http://jmduke.com/posts/a-gentle-introduction-to-itertools/
+  

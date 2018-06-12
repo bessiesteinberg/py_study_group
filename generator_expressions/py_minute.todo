@@ -1,0 +1,18 @@
+What to talk about:
+  ☐ syntax of gen_exp
+    ☐ syntax of normal generator 
+    ☐ syntax of generator expression
+  ☐ compare list comprehensions and generator expressions
+    ☐ can iterate over both of them
+    ☐ can only use generator expressions once
+    ☐ can't index into generator expressions
+    ☐ compare sizes
+      ☐ the big benefit of generator expressions over list comprehensions is that they are much smaller
+      ☐ make chart showing:
+        ☐ small list
+        ☐ small gen
+        ☐ big list
+        ☐ big gen
+  ☐ nesting 
+    ☐ here is how nesting works
+    ☐ interestingly nothing excecutes until ....

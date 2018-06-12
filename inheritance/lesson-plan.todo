@@ -1,0 +1,20 @@
+Fun with super:
+  ☐ basic inheritence: base_case.py
+  ☐ multiple inheritance: multi_case.py
+  ☐ the dreaded diamond:
+    ☐ fun_with_super 
+      ☐ explain premise
+      ☐ what I thought would happen
+      ☐ what actually happens
+    ☐ method resolution order
+      ☐ thanks_mro
+
+Inheritance vs Composition:
+  ☐ Multi inheritance is awesome, but can get overused
+  ☐ Composition - definition
+    ☐ base_case_composition
+  ☐ explicit vs. implicit delegation
+    ☐ in either case a task is delegated to another class, but in one its implicit and the other its explicit
+  ☐ duck rule:
+    ☐ if it walks like a duck and talks like a duck its probably a duck
+  ☐ calendar/clock widget

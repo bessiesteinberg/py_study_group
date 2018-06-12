@@ -1,0 +1,40 @@
+ ☐ They go by many names "Special Methods" "Magic Methods" "Dunder Methods" "Illusion Methods" "Those Weird Methods with the Underscores"
+
+Turning Magic Methods into Special Methods:
+  What is "magic" about them?:
+    ☐ You do not have to invoke them directly
+      ☐ calling_init.py
+    ☐ A lot of interesting things are taken care of behind the scenes by special methods
+    ☐ operator overloading
+      ☐ in the wild
+        ☐ in python terminal so "adding" of...
+          ☐ ints or floats
+          ☐ strings
+          ☐ lists
+      ☐ silly_opperator_overloading.py
+      ☐ operator_overloading.py
+      ☐ op_get.py
+    ☐ All operators are implemented this way!
+      ☐ or vs |, and vs &
+        ☐ | implemented with __or__()
+        ☐ & implemented with __and__()
+        ☐ "or" and "and" are keywords
+        ☐ this allows operations to stop if the first "argument" of "or" or "and" makes it unnecsary to finish the computation
+     ☐ attributes!
+       ☐ __mro__
+       ☐ __dir__
+
+
+  Some fun stuff to do with them:
+    ☐ theoretically the possibilities are endless
+    ☐ making your own iterator!
+      ☐ iterator.py
+
+  Important take away: 
+    ☐ what you ARE vs. what you DO
+      ☐ You don't have to inherit from "addable" to be something that can use the +. You just have to have an implemented __add__ method
+
+Resources:
+  ☐ https://www.python-course.eu/python3_magic_methods.php
+  ☐ https://www.youtube.com/watch?v=WiQqqB9MlkA
+  ☐ https://docs.python.org/2/reference/datamodel.html

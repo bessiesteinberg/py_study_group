@@ -1,0 +1,61 @@
+ How to Generator Expresion:
+   ☐ recap how to make generator from last class
+   ☐ how to make generator expression - syntax
+
+ List comprehension vs. Generator Expression:
+   ☐ syntx of how to make list comprehension
+     ☐ [x*2 for x in range(5)]
+     ☐ list(range(0,9,2))
+   ☐ iterating over list comprehensions
+     ☐ hasattr '__iter__'
+     ☐ iter( list_comprehsion )
+       ☐ next( list_iter )
+       ☐ list_iter.next()
+       ☐ stop iteration exception 
+     ☐ make NEW list_iter
+   ☐ iterating over generator expressions
+     ☐ hasattr '__iter__'
+     ☐ iterate oer the generator
+        ☐ next( gen )
+        ☐ gen.next()
+        ☐ stop exception
+   ☐ index into list comprehension vs generator expression
+   ☐ print both
+   ☐ benefit of generator expression: size!
+     ☐ from sys import getsizeof
+     ☐ size of both range 5
+     ☐ size of both range 1000
+
+ Nesting generator expressions:
+   ☐ no_nesting
+   ☐ messy_nesting
+   ☐ nesting
+   ☐ turtles_all_the_way_down
+
+
+ Wrap up:
+   ☐ what do you want to talk about next week?
+     ☐ collections 
+     ☐ iter tools 
+     ☐ classes vs dictionaries and when to use which 
+       ☐ namedtuple
+       ☐ attrs / dataclasses
+     ☐ lambda expressions 
+     ☐ decoractors - when to use them, what is the value add 
+     ☐ mixins / multiple inheratance
+       ☐ super
+       ☐ alternatives to inheratance
+         ☐ compossition
+       ☐ what makes python classes different than C and Java
+       ☐ is there ever a reason to use a static method
+       ☐ set up road blocks for what we will not talk about in this meeting
+         ☐ Not gonna talk about Meta Class
+     ☐ when to use decorators vs mixins
+     ☐ abstract base classes (ABC) - what it is and why its controversial
+     ☐ testing and mocking
+     ☐ python 3 related features we should start taking advantage of
+     ☐ how to be cross compatable with different python versions
+     ☐ bisect - binary search
+     ☐ heap queue - partially sorted heap
+   ☐ any feed back on what you would like from this or how it could improve?
+

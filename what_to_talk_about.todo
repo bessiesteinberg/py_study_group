@@ -1,0 +1,49 @@
+ ☐ iter tools  @high
+ ☐ with keyword
+  ☐ __enter__ __exit__
+☐ collections 
+ ☐ classes vs dictionaries and when to use which 
+   ☐ namedtuple
+   ☐ attrs / dataclasses
+ ☐ lambda expressions 
+   ☐ what makes python classes different than C and Java
+   ☐ is there ever a reason to use a static method
+   ☐ set up road blocks for what we will not talk about in this meeting
+     ☐ Not gonna talk about Meta Class
+ ☐ when to use decorators vs mixins
+ ☐ abstract base classes (ABC) - what it is and why its controversial
+ ☐ testing and mocking @medium
+ ☐ python 3 related features we should start taking advantage of
+ ☐ how to be cross compatable with different python versions
+ ☐ bisect - binary search
+ ☐ heap queue - partially sorted heap
+ ☐ @classmethod vs @staticmethod vs self.foo() 
+ ☐ dymanic inheritence
+
+
+ ☐ special methods (magic methods) (illusion methods) @high
+   ✔ turn magic methods to special methods @done (18-05-21 22:10)
+   ☐ new style vs old style class (if you derive from object you are new style)
+   ✔ one to one mapping of python syntax @done (18-05-22 11:55)
+     ✔ list [] is __get__ etc.. @done (18-05-22 11:55)
+   ✔ and and or aren't operators @done (18-05-22 13:27)
+     ✔ so you can't redefine them @done (18-05-22 13:27)
+   ☐ some are attributes like mro, doc
+   ☐ https://docs.python.org/2/reference/datamodel.html
+   ☐ str 
+   ☐ repr
+   ☐ init
+   ☐ don't talk about descriptors
+   ☐ what you are vs. what you do (java vs. python)
+   ☐ desctrucor __del__
+   ☐ elegant solutions:
+     ☐ https://www.youtube.com/watch?v=WiQqqB9MlkA
+   ☐ __call__ method / callables
+   ☐ 
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ super @done (18-05-01 14:54)
+ ✔ mixins / multiple inheratance @done (18-05-01 14:54)
+ ✔ decoractors - when to use them, what is the value add @high @done (18-05-01 14:54)
+ ✔ compossition @done (18-05-01 14:54)
+ ✔ alternatives to inheratance @done (18-05-01 14:54)

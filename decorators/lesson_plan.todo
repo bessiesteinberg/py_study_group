@@ -1,0 +1,28 @@
+ Functions:
+   ☐ functions are objects
+   ☐ can be passed around and returned like strings and ints
+   ☐ return_functions.py
+     ☐ returns pointers
+     ☐ call the funcions
+Decorators:
+   ☐ simple_decorator
+     ☐ we can create wrapper functions around other functions
+   ☐ decorator syntax
+     ☐ decorator_syntax_definition
+     ☐ decorator_syntax_usage
+   ☐ example where this may be actually useful
+     ☐ timing
+Decorators with args:
+  ☐ timing_with_args
+  ☐ timing_with_decorator_args
+Functools:
+  ☐ undecorated function
+  ☐ decorator_without_functools
+  ☐ decorator_with_functools
+
+
+
+  Resources:
+    ☐ https://realpython.com/primer-on-python-decorators/
+    ☐ https://www.codementor.io/sheena/advanced-use-python-decorators-class-function-du107nxsv
+    ☐  https://docs.python.org/2/library/functools.html#functools.wraps
