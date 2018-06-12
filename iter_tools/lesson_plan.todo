@@ -17,10 +17,8 @@ itertools:
     ☐ it_imap.py
     ☐ it_tee.py
   ☐ combinatorics:
-    ☐ product
-    ☐ permutations
-    ☐ combinations
-    ☐ combinations_with_replacement
+    ☐ it_product.py
+    ☐ it_combinatorics.py
 
 
 
