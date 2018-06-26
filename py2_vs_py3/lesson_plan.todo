@@ -1,0 +1,33 @@
+Python 2 vs. Python 3:
+  ☐ switch between python versions (pyenv) (https://stackoverflow.com/questions/23842713/using-python-3-in-virtualenv)
+  ☐ I created two diff venvs so we can see py2 vs. py3 easily
+  ☐ things that will trip you up
+    ☐ print is a function
+      ☐ print_it.py
+    ☐ bytes vs. unicode
+      ☐ byte_vs_unicode_typeerror.py
+      ☐ explicit encoding and decoding between bytes and unicode strs
+        ☐ convert_bytes_unicode.py
+  ☐ six package
+    ☐ which_py_version.py
+    ☐ naming conventions changes around some iter functions
+      ☐ six_next.py
+      ☐ py2_dict.py, py3_dict.py and six_dict.py
+        ☐ mention itervalues, iteritems, iterlists
+  ☐ OEP7: http://open-edx-proposals.readthedocs.io/en/latest/oep-0007-bp-migrate-to-python3.html
+    ☐ future vs. six
+    ☐ text vs. bytes: 
+      ☐ "Where possible, we will use unambiguous text or byte objects. In most cases, text should be preferred. Bytes should only be used when you can answer the question: “Do I need this specific sequence of bytes."
+      ☐ "The only operation that should (ideally) be performed on bytes is decoding"
+    ☐ six.PY2 
+      ☐ what my example should be: which_python_better.py
+  ☐ What is new that you may want to take advantage of
+    ☐ f_strings.py
+
+
+References: 
+ ☐ https://docs.python.org/3/whatsnew/3.0.html
+ ☐ https://docs.python.org/3/howto/unicode.html
+ ☐ http://six.readthedocs.io/
+ ☐ https://www.blog.pythonlibrary.org/2018/03/13/python-3-an-intro-to-f-strings/
+ ☐ https://www.blog.pythonlibrary.org/2016/01/19/python-3-an-intro-to-type-hinting/
