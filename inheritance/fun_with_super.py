@@ -16,14 +16,14 @@ class B(A):
 		super(B, self).__init__()
 		print "init B"
 
-	name = "B"
+	important_value = "B"
 
 class C(A):
 	def __init__(self):
 		super(C, self).__init__()
 		print "init C"
 
-	name = "C"
+	important_value = "C"
 
 class D(B,C):
 	def __init__(self):
@@ -39,8 +39,8 @@ class E(C, B):
 
 print("d=D()...")
 d=D()
-print("D.name: " + D.name)
+print("D.important_value: " + D.important_value)
 
-# print("e=E()...")
-# e=E()
-# print("E.name: " + E.name)
+print("e=E()...")
+e=E()
+print("E.important_value: " + E.important_value)

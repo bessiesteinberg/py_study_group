@@ -2,12 +2,14 @@ Fun with super:
   ☐ basic inheritence: base_case.py
   ☐ multiple inheritance: multi_case.py
   ☐ the dreaded diamond:
-    ☐ fun_with_super 
+    ☐ fun_with_super.py
       ☐ explain premise
       ☐ what I thought would happen
       ☐ what actually happens
     ☐ method resolution order
-      ☐ thanks_mro
+      ☐ thanks_mro.py
+    ☐ what is with super's wierd syntax?
+      ☐ why_does_super_look_wierd.py
 
 Inheritance vs Composition:
   ☐ Multi inheritance is awesome, but can get overused
@@ -17,4 +19,6 @@ Inheritance vs Composition:
     ☐ in either case a task is delegated to another class, but in one its implicit and the other its explicit
   ☐ duck rule:
     ☐ if it walks like a duck and talks like a duck its probably a duck
-  ☐ calendar/clock widget
+  ☐ accumulator
+    ☐ compostition_list.py
+    ☐ inherit_list.py

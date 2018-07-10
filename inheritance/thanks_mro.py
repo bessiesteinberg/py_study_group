@@ -10,7 +10,7 @@ class A(object):
 	def __init__(self):
 		print "init A"
 
-	def some_method(self):
+	def somemethod(self):
 		print "some_method - A"
 
 	x = "A"
@@ -20,14 +20,20 @@ class B(A):
 		super(B, self).__init__()
 		print "init B"
 
-	name = "B"
+	important_value = "B"
+	def somemethod(self):
+		super(B, self).somemethod()
+		print "B"
 
 class C(A):
 	def __init__(self):
 		super(C, self).__init__()
 		print "init C"
 
-	name = "C"
+	important_value = "C"
+	def somemethod(self):
+		super(C, self).somemethod()
+		print "C"
 
 class D(B,C):
 	def __init__(self):
@@ -43,17 +49,19 @@ class E(C, B):
 
 print("D.mro: {}".format( D.__mro__ ))
 print("E.mro: {}".format( E.__mro__ ))
-print("C.mro: {}".format( C.__mro__ ))
-print("B.mro: {}".format( B.__mro__ ))
+# print("C.mro: {}".format( C.__mro__ ))
+# print("B.mro: {}".format( B.__mro__ ))
 
 print("d=D()...")
 d=D()
-print("D.name: " + D.name)
+d.somemethod()
 
-print("e=E()...")
-e=E()
-print("E.name: " + E.name)
+# print("D.important_value: " + D.important_value)
 
-print("b=B()...")
-b=B()
+# print("e=E()...")
+# e=E()
+# print("E.important_value: " + E.important_value)
+
+# print("b=B()...")
+# b=B()
 
