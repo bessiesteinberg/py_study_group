@@ -1,0 +1,10 @@
+There a many ways to do assignments in python:
+  - X = some_value
+  - for X in some_sequence
+  - class X():
+  - def X():
+  - def function(X):
+  - import X
+  - from some.module import X
+  - except some_exception as X
+  - with some_expresion as X

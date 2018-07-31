@@ -9,6 +9,15 @@
   ☐ properties
   ☐ everything is public
 
+☐ python names and values ned's pycon talk (bit.ly/pynames1)
+  ☐ assignment (imports, values, for loops)
+☐ exceptions 
+  ☐ flow control
+  ☐ what is an exceptional situation
+  ☐ finally
+  ☐ else clause
+☐ context managers
+☐ descriptors
 ☐ when to use decorators vs mixins
 ☐ abstract base classes (ABC) - what it is and why its controversial
 ☐ collections 

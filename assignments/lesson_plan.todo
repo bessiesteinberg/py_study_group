@@ -1,0 +1,26 @@
+What to talk about:
+  ☐ basic assignment
+    ☐ basic.py
+  ☐ mutable vs immutable:
+    ☐ copies.py
+    ☐ immutable_copies.py
+    ☐ rebinding vs. mutating:
+      ☐ change.py
+  ☐ references.py
+  ☐ types_of_assignments.todo
+  ☐ for loops:
+    ☐ loop_assignments.py
+    ☐ loop_mult10.py
+    ☐ loop_append.py
+  ☐ functions
+    ☐ func_assignments.py
+    ☐ func_assignments_mutable.py
+    ☐ functions on mutables
+      ☐ append_twice_mutate.py
+      ☐ append_twice_useless.py
+      ☐ append_twice
+  ☐ call by value or call by reference
+
+Special thanks to:
+  ☐ ned's great talk on this: https://www.youtube.com/watch?v=_AEJHKGk9ns&feature=player_embedded
+  ☐ pythontutor.com
