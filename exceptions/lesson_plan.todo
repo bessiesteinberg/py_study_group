@@ -1,0 +1,37 @@
+What to talk about:
+
+  ☐ exception basics
+    ☐ basic_structure.py
+    ☐ basic_plus.py
+    ☐ assigning_exceptions.py
+    ☐ multiple_exceptions.py
+    ☐ multiple_except_clauses.py
+    ☐ inheritance_oops.py
+    ☐ inheritance_good.py
+    ☐ except_raise.py
+  ☐ clauses
+    ☐ the_other_clauses.py
+  ☐ else clause:
+    ☐ EAFP: (easier to ask forgiveness) vs. LBYL (look before you leap)
+      ☐ many try catches vs many if statements.  in multithreading envs if you LBYL you may look, something changes, then you leap so you have to be careful about locking values or just use EAFP
+      ☐ don't have to check if a variable exists
+      ☐ keep_it_in_the_try_clause.py
+      ☐ check_variable.py
+      ☐ use_variable_in_else.py
+    ☐ There is a lot of mixed opinion on the internet about the usefulness of the else clause.  You can certainly get by without it, but there are some times when it is nice to use!  My opinion is that you should get comfortable with it and then you have it as an option.
+    ☐ you can have the exception handling right next to where the exception is thrown
+      ☐ improves readability
+      ☐ you are not accidentally handling exceptions you didn't mean to
+        ☐ official python stance on the matter: The use of the else clause is better than adding additional code to the try clause because it avoids accidentally catching an exception that wasn’t raised by the code being protected by the try … except statement.
+    ☐ when you want to do something specifically if the exception wasn't caught, ex. if you are testing 
+
+ ☐ finally clause
+    ☐ the_other_clauses.py
+    ☐ with_ex.py
+
+
+References:
+  ☐ https://stackoverflow.com/questions/855759/python-try-else
+  ☐ https://docs.python.org/2/tutorial/errors.html#handling-exceptions
+  ☐ https://docs.python.org/3/tutorial/errors.html#handling-exceptions
+  ☐ https://docs.python.org/3/library/exceptions.html

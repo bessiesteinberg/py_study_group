@@ -1,0 +1,32 @@
+What to talk about:
+ ☐ scope: where a variable is accesible
+ ☐ lifetime: how long the variable exists
+ ☐ basics
+   ☐ global_basics.py
+   ☐ function_variables.py
+   ☐ function_with_globals.py (0-4)
+ ☐ namespace: is a mapping of names to objects (in python they are mostly implemented as dicts)
+ ☐ attribute: refers to anything following a '.'
+   ☐ classes.py
+   ☐ namespaces can map to attributes
+     ☐ a_mod.py
+     ☐ import_a_mod.py
+
+
+ ☐ The namespace containing the built-in names is created when the python interpreter starts up and is never deleted
+ ☐ a global namespace for a module is created when the module definition is read in
+ ☐ a local scope is created when a function is called
+
+ ☐ order of looking up the name:
+   ☐ the innermost scope, which is searched first, contains the local names
+   ☐ the scopes of any enclosing functions, which are searched starting with the nearest enclosing scope, contains non-local, but also non-global names
+   ☐ the next-to-last scope contains the current module’s global names
+   ☐ the outermost scope (searched last) is the namespace containing built-in names
+ ☐ this effectively makes all outter scopes read-only
+
+
+
+References:
+  ☐ https://python-textbok.readthedocs.io/en/1.0/Variables_and_Scope.html
+  ☐ https://infohost.nmt.edu/tcc/help/pubs/python/web/dir-function.html
+  ☐ https://docs.python.org/2/tutorial/classes.html

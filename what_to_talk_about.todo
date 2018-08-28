@@ -1,3 +1,9 @@
+ ☐ python scoping, local and global
+ ☐ builtin vs local
+ ☐ mocking
+ ☐ when should exceptions be used? what is an 'exceptional' condition? should it be used for code flow?
+ ☐ with
+
 ☐ things we hate about python vs. things we love about python (they are the same things)
   ☐ ABCs
   ☐ type hinting in python 3
