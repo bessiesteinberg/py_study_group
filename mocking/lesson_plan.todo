@@ -1,0 +1,24 @@
+What to talk about:  
+ ☐ mocking can be LOTS of things, but generally 'mocking' means replacing some portion of your application with a dummy version of that thing for the purposes of testing.
+   ☐ reasons to mock:
+     ☐ increase speed of testing (if the thing you are mocking takes a long time)
+     ☐ avoid undesired side effects (ex. if your service calls some external API you may not want to actually call those APIs w/ your test data)
+     ☐ uncouple dependencies (if your application requires another service to opperate you may not want to test that other service when you are testing your application)
+
+ ☐ testing basics
+   ☐ basic_main.py
+   ☐ test_main.py
+   ☐ test_long.py
+ ☐ basics of mocking methods
+   ☐ basic_mock.py
+ ☐ mock_classes
+ ☐ mock_spec
+ ☐ patch_decorators/
+   ☐ patch_is_assignment.py
+ ☐ side_effects
+   
+
+
+
+References:
+  ☐ https://semaphoreci.com/community/tutorials/getting-started-with-mocking-in-python
