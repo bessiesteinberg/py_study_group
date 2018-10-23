@@ -16,7 +16,17 @@ What to talk about:
  ☐ patch_decorators/
    ☐ patch_is_assignment.py
  ☐ side_effects
-   
+
+
+   ☐ pdb and other debuggers
+   ☐ spying & advanved mocking (ex. called with correct args)
+   ☐ decorators
+   ☐ testing
+     ☐ write a new unit test from scratch / from the code base
+   ☐ installing dependeces / set up tools "whole ecosystem of crap that you need to use python"
+     ☐ publish package to pip
+     ☐ how do we do it here?
+     ☐ the src dir in our docker devstack
 
 
 
