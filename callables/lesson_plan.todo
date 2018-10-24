@@ -1,0 +1,22 @@
+Review What is A Callable?:
+  - Ben went over this two weeks ago, but incase you need a refresher:
+    - 'callable' is anything thing in python that can be called
+      - i acknowledge this is sort of a tautology, but let's dig into this a bit.  if we thing about this from the perspective of python 'duck typing' this is very powerful.
+   - some types of callables:
+     - functions: types_funcs.py
+     - builtin functions: types_builtins.py
+     - lambdas: types_lambdas.py
+     - classes: types_classes.py
+     - bound and unbound methods:
+       - explain_bound_methods.py
+     - if we implement the __call__() any implementation of a class can become a callable: types_dunder_call.py
+     - is_everything_a_callable.py
+   - using callables (another example of duck typing)
+     - There is no object called callables that all these inherit from, they all just have the ability to be called so in any situation where you can call something - you can use one of the things discussed above! YAY duck typing!
+     - "callables" is just a helpful name for these types of things that have this thing in common
+     - map function: map_examples.py
+     - sorted: sorted_examples.py
+
+References:
+  - https://anthony-zhang.me/blog/python-bound-methods/
+  - https://www.geeksforgeeks.org/python-map-function/
