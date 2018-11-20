@@ -1,0 +1,30 @@
+Lesson plan:
+ - limited_files_open.py
+   - when you open a file the OS assigns a 'file descriptor' for that file (basically a handle/pointer to that file)
+   - Most OSs have a limit to the number they will allow open - and even if they don't enforce that limit eventually your computer will cry out in agony and crash!
+   - you can check it: `ulimit -n`
+ - this is why you should close your files! close_open_files.py
+   - so just always remember to close your files! that shouldn't be an issue in giant confusing systems right? nope - no problem here everything is great
+   - but maybe you don't want to leave everything to fate
+     - in most languages you would have to use try...except...finally everytime you open a file
+     - but python has CONTEXT MANAGERS!!!
+ - What problem do context managers solve: they are a convienient way to ensure a particular variable which has some clean up associated with it actually gets cleaned up
+ - context_manager_syntax.py
+ - what_is_a_context_manager.py
+ - other useful context managers
+   - threading_with_danger.py
+   - threading_with_with.py
+ - contextlib
+   - contextlib_syntax.py
+   - contextlib_file_opener.py
+   - contextlib_sandwich.py
+ - mocking
+   - with_patch.py
+   - patch_dict.py
+
+
+
+
+References:
+  - https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/
+  - https://docs.python.org/3/library/unittest.mock.html
