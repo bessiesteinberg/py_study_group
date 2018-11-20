@@ -7,13 +7,15 @@ def simple_decorator(some_func):
 
 		print("some_func was just called!!")
 
-	return wrapper
+	return 5
 
 
 def boring_function():
 	print("hey!")
 
 decorated_function = simple_decorator(boring_function)
+
+print(decorated_function)
 
 decorated_function()
 

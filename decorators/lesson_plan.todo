@@ -5,24 +5,34 @@
      ☐ returns pointers
      ☐ call the funcions
 Decorators:
-   ☐ simple_decorator
+   ☐ simple_decorator.py
      ☐ we can create wrapper functions around other functions
    ☐ decorator syntax
      ☐ decorator_syntax_definition
      ☐ decorator_syntax_usage
    ☐ example where this may be actually useful
-     ☐ timing
+     ☐ timing.py
 Decorators with args:
   ☐ timing_with_args
   ☐ timing_with_decorator_args
 Functools:
-  ☐ undecorated function
-  ☐ decorator_without_functools
-  ☐ decorator_with_functools
+  ☐ undecorated_function.py
+  ☐ decorator_without_functools.py
+  ☐ decorator_with_functools.py
+Property decorator:
+  - \@property is a built in python decorator
+  - simple_temp.py
+  - better_temp.py
+  - property_explained.py
 
+
+Add: 
+  decorators that aren't wrappers
 
 
   Resources:
     ☐ https://realpython.com/primer-on-python-decorators/
     ☐ https://www.codementor.io/sheena/advanced-use-python-decorators-class-function-du107nxsv
     ☐  https://docs.python.org/2/library/functools.html#functools.wraps
+    ☐ https://stackabuse.com/the-python-property-decorator/
+    ☐ https://www.programiz.com/python-programming/methods/built-in/property

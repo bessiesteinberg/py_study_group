@@ -1,11 +1,11 @@
 import time
 
-def timeout(max_time):
+def timeout(max_time): # decorator factory
 	"""
 	Returns string representing time to excecute some_function,
 	unless max time is hit then an exception is raised
 	"""
-	def timing_function(some_function):
+	def timing_function(some_function): # decorator
 		"""
 		Returns string representing time to excecute some_function()
 		"""

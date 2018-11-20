@@ -6,10 +6,10 @@ def timing_function(some_function):
 	"""
 
 	# def wrapper():
-	def wrapper(nums):
+	def wrapper(*args, **kwargs):
 		before = time.time()
 		# some_function()
-		some_function(nums)
+		some_function(*args, **kwargs)
 		after = time.time()
 		difference = after - before
 		return "some_function() excuted in {}s".format(difference)
@@ -27,3 +27,6 @@ def add_lots_of_numbers(nums):
 print(add_lots_of_numbers(10))
 print("\n")
 print(add_lots_of_numbers(1000000))
+
+
+

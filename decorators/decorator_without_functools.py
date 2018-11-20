@@ -1,5 +1,6 @@
 def my_decorator(f):
 	def wrapper(*args, **kwargs):
+		""" I'm a wrapper! """
 		print("Calling decorated function")
 		return f(*args, **kwargs)
 	return wrapper
