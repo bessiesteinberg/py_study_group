@@ -6,6 +6,7 @@ def sandwich(bread):
 	yield
 	print("{}".format(bread.upper()))
 
+
 with sandwich('rye'):
 	print('magic deli sauce')
 	print('swiss cheese')

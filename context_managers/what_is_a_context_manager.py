@@ -6,6 +6,7 @@
 class File():
 
 	def __init__(self, filename, mode):
+		print("init")
 		self.filename = filename
 		self.mode = mode
 
@@ -21,8 +22,13 @@ class File():
 	def __str__(self):
 		return "File [{}]".format(self.filename)
 
+file_name = "foo.txt"
+file_obj = File(file_name, 'w')
+print("SUP?")
+with file_obj as f:
+	f.write(file_name)
 
-for x in range(10000):
-	file_name = "foo{}.txt".format(x)
-	with File(file_name, 'w') as f:
-		f.write(file_name)
+# for x in range(10000):
+# 	file_name = "foo{}.txt".format(x)
+# 	with File(file_name, 'w') as f:
+# 		f.write(file_name)
