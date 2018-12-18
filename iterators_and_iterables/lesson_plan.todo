@@ -1,0 +1,32 @@
+Iterators and Iterables:
+  ☐ Iterables are objects in python that can be iterated over
+    ☐ iterable_examples.py
+  ☐ what makes an iterable?
+    ☐ iterables have next() and iter() methods defined *
+    * This is kind of a lie, but we'll get back to it
+    ☐ counter.py
+  ☐ what is actually happening in a for loop?
+    ☐ calls the iter method to get the iterator and then...
+    ☐ calls next until it hits a StopIteration error
+    ☐ any object with an iterable 
+    ☐ demonstrate by showing pdb
+    ☐ for_loops_unpacked.py
+  ☐ what is the difference between an iterator and and iterable
+    ☐ Counter is both an iterator and an iterable. in our Counter example the iterable counter returns itself, this is a fairly common, but does not always happen
+    ☐ compare file iterator to list iterator, iter(file) == file
+    ☐ counter_list.py
+  ☐ generators are special types of iterators
+    ☐ counter_gen.py
+    ☐ simpler_counter.py
+    ☐ builtin_counter.py
+    ☐ infinite_generator.py
+    ☐ infinite_generator_why.py
+  ☐ Fun iteration Example! (Thanks Ned and Advent of Code!)
+    ☐ unique_randint.py
+
+  Reference:
+    - https://wiki.python.org/moin/ForLoop
+    - https://developer.ibm.com/articles/l-pycon/
+    - https://stackoverflow.com/questions/19151/build-a-basic-python-iterator
+    - http://zetcode.com/lang/python/itergener/
+    - https://github.com/nedbat/adventofcode2016/blob/master/day14.py
