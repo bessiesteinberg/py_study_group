@@ -4,6 +4,7 @@ from classes import ClassA, ClassB
 @patch('classes.ClassA')
 @patch('classes.ClassB')
 def test(mock_class_a, mock_class_b):
+	import pudb; pudb.set_trace()
 	mock_class_a.method_a()
 	mock_class_b.method_b()
 	assert mock_class_a.called

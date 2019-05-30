@@ -4,10 +4,10 @@ class Counter(object):
 	def __init__(self, low, high):
 		self.current = low
 		self.high = high
-
 	def __iter__(self):
 		# import pudb; pudb.set_trace()
 		return self
+
 
 	def __next__(self):
 		# import pudb; pudb.set_trace()

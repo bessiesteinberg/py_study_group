@@ -4,6 +4,5 @@ def counter(low, high):
 		yield current
 		current += 1
 
-
 for i in counter(3, 5):
 	print(i)

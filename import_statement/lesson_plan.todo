@@ -1,0 +1,27 @@
+lesson:
+  - import_01.py
+    - import really runs code!
+  - basic `import` (no `from` clause):
+    - import_02_what_is_happening.py
+    - import_03_as.py
+  - import level
+    - import_04_top_level.py
+    - import_05_not_top_level.py
+  - from clause
+    - from_01.py
+    - from_02_star
+  - find a module
+    - module_search_path.py
+    - sys_path.py
+  - to recap what is a module
+    - a module is a file of code it can have attributes and executable code
+
+
+
+
+
+
+references:
+  - https://docs.python.org/3/reference/import.html
+  - https://docs.python.org/3/library/sys.html#sys.modules
+  - https://nedbatchelder.com/text/machete.html

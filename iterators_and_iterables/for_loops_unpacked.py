@@ -1,7 +1,7 @@
 def unpacked_foor_loop(iterable):
 	# does the same thing as:
-	# for i in iter_obj:
-	#	print(i)
+	# for i in iterable:
+	# 	print(i)
 
 	iter_obj = iter(iterable)
 
