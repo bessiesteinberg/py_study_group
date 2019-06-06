@@ -18,8 +18,10 @@ What to talk about:
     ☐ functions on mutables
       ☐ append_twice_mutate.py
       ☐ append_twice_useless.py
-      ☐ append_twice
-  ☐ call by value or call by reference
+      ☐ append_twice.py
+    ☐ func_assignments_default_arts.py
+  ☐ is python call by value or call by reference?
+
 
 Special thanks to:
   ☐ ned's great talk on this: https://www.youtube.com/watch?v=_AEJHKGk9ns&feature=player_embedded
