@@ -10,5 +10,5 @@ class C(A,B):
 	pass
 
 c = C()
-print "c.some_method: {}".format(c.some_method())
-print "c.other_method: {}".format(c.other_method())
+print("c.some_method: {}".format(c.some_method()))
+print("c.other_method: {}".format(c.other_method()))

@@ -12,10 +12,10 @@ class B(A):
 
 a = A()
 b = B()
-print "a.some_method: {}".format(a.some_method())
-print "b.some_method: {}".format(b.some_method())
-print "a.other_method: {}".format(a.other_method())
-print "b.other_method: {}".format(b.other_method())
+print("a.some_method: {}".format(a.some_method()))
+print("b.some_method: {}".format(b.some_method()))
+print("a.other_method: {}".format(a.other_method()))
+print("b.other_method: {}".format(b.other_method()))
 
 
 

@@ -1,24 +1,29 @@
 Fun with super:
   ☐ basic inheritence: base_case.py
-  ☐ multiple inheritance: multi_case.py
+  ☐ multiple inheritance: 
+    ☐ multi_case1.py
+    ☐ multi_case2.py
+    ☐ multi_case3.py
+  ☐ super
+    ☐ super_basics1.py
+    ☐ super_basics2.py
   ☐ the dreaded diamond:
     ☐ fun_with_super.py
-      ☐ explain premise
-      ☐ what I thought would happen
-      ☐ what actually happens
-    ☐ method resolution order
-      ☐ thanks_mro.py
-    ☐ what is with super's wierd syntax?
-      ☐ why_does_super_look_wierd.py
+  ☐ method resolution order
+    ☐ thanks_mro.py
+  ☐ what is with super's wierd syntax?
+    ☐ why_does_super_look_wierd.py
+    ☐ why_not_self_class.py
+    ☐ py2_vs_py3.py
 
 Inheritance vs Composition:
   ☐ Multi inheritance is awesome, but can get overused
-  ☐ Composition - definition
-    ☐ base_case_composition
-  ☐ explicit vs. implicit delegation
-    ☐ in either case a task is delegated to another class, but in one its implicit and the other its explicit
-  ☐ duck rule:
-    ☐ if it walks like a duck and talks like a duck its probably a duck
+  ☐ inheritance_vs_composition_def.py
   ☐ accumulator
     ☐ compostition_list.py
     ☐ inherit_list.py
+  ☐ IS-A vs HAS-A
+  ☐ explicit vs. implicit delegation
+    ☐ in either case a task is delegated to another class, but in one its implicit and the other its explicit
+
+
