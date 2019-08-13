@@ -1,3 +1,4 @@
+
 class a_class():
 	val = 1
 
@@ -6,7 +7,6 @@ class a_class():
 
 
 val = 6
-
 
 print("dir(): {}".format(dir()))
 print("dir(a_class): {}".format(dir(a_class)))

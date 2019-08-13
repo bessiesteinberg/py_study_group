@@ -7,7 +7,7 @@ for i in range(0, 5):
 	# this is also a global variable
 	b = 6
 
-if False:
+if True:
 	c = 8
 
 try:

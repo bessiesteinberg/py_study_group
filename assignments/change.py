@@ -10,12 +10,12 @@ x = 6
 x = x + 1
 
 # or you make some change to what you are pointing to (mutating):
-list_a = [1, 2, 3]
+list_a = [3, 1, 4]
 list_b = list_a
 list_a.append(1)
 
 # Note: immutables, like ints, cannot be mutated (well named!)
 # mutables CAN be rebinded:
-list_a = [4, 5, 6]
+list_a = [5, 9, 2]
 list_b = list_a
-list_a = list_a + [1]
+list_a = list_a + [6]

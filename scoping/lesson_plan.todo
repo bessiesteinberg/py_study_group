@@ -4,7 +4,7 @@ What to talk about:
  ☐ basics
    ☐ global_basics.py
    ☐ function_variables.py
-   ☐ function_with_globals.py (0-4)
+   ☐ function_with_globals.py (0-5)
  ☐ namespace: is a mapping of names to objects (in python they are mostly implemented as dicts)
  ☐ attribute: refers to anything following a '.'
    ☐ classes.py

@@ -5,6 +5,7 @@ def my_function(a=a):
     a = 3
     print(a)
 
+a = 5
 
 my_function()
 print(a)
